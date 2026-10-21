@@ -1,0 +1,67 @@
+# Site theme settings for the Butterfly theme
+
+default_top_img: /autumn-blog/images/dawn-valley.jpg
+index_img: /autumn-blog/images/dawn-valley.jpg
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover:
+    - /autumn-blog/images/dawn-valley.jpg
+
+theme_color:
+  enable: true
+  main: "#397d73"
+  paginator: "#7fa88f"
+  button_hover: "#dcae52"
+  text_selection: "#dcae52"
+  link_color: "#397d73"
+  meta_color: "#73867d"
+  hr_color: "#d9e3d8"
+  code_foreground: "#28766c"
+  code_background: "rgba(57, 125, 115, 0.08)"
+  toc_color: "#397d73"
+  blockquote_padding_color: "#7fa88f"
+  blockquote_background_color: "rgba(127, 168, 143, 0.14)"
+
+index_layout: 3
+index_post_content:
+  method: 3
+  length: 180
+
+aside:
+  enable: true
+  card_author:
+    enable: true
+    description: "在晨光与山色之间，记录学习、生活和一路上的新发现。"
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/Autumn112358
+  card_announcement:
+    enable: true
+    content: "把日常写成风景。欢迎来到我的小小博客。"
+  card_recent_post:
+    enable: true
+    limit: 3
+  card_categories:
+    enable: true
+    limit: 6
+  card_tags:
+    enable: true
+    limit: 12
+    color: true
+  card_archives:
+    enable: true
+    limit: 3
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: "在晨光里，认真记录每一天。"
+
+inject:
+  head:
+    - '<link rel="stylesheet" href="/autumn-blog/css/autumn.css">'
