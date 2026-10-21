@@ -1,13 +1,13 @@
 # Site theme settings for the Butterfly theme
 
-default_top_img: /autumn-blog/images/dawn-valley.jpg
-index_img: /autumn-blog/images/dawn-valley.jpg
+default_top_img: /images/dawn-valley.jpg
+index_img: /images/dawn-valley.jpg
 cover:
   index_enable: true
   aside_enable: true
   archives_enable: true
   default_cover:
-    - /autumn-blog/images/dawn-valley.jpg
+    - /images/dawn-valley.jpg
 
 theme_color:
   enable: true

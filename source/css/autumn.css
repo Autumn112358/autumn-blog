@@ -24,6 +24,8 @@ body {
   min-height: 440px;
   height: 58vh;
   max-height: 680px;
+  /* Explicit project-site URL avoids Hexo duplicating the /autumn-blog/ prefix. */
+  background-image: url("/autumn-blog/images/dawn-valley.jpg") !important;
   background-position: center 48%;
   background-size: cover;
 }
