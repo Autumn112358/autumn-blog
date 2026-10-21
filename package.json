@@ -2,6 +2,9 @@
   "name": "autumn-blog",
   "version": "1.0.0",
   "private": true,
+  "hexo": {
+    "version": "8.1.2"
+  },
   "scripts": {
     "clean": "hexo clean",
     "build": "hexo generate",
